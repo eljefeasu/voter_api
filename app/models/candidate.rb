@@ -4,4 +4,5 @@ class Candidate < ActiveRecord::Base
   validates :hometown, presence: true
   validates :district, presence: true
   validates :party, presence: true
+  validates :name, uniqueness: true
 end
