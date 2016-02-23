@@ -3,7 +3,7 @@
 This is a Rails-based application which only serves up an API. The API responds with JSON.
 
 
-### Day One Tasks To Complete
+#### Day One Tasks To Complete
 
 - [x] Review the requirements and create an ERD
 - [x] Create a new Rails app
