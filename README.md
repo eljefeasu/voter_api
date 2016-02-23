@@ -15,10 +15,11 @@ This is a Rails-based application which only serves up an API. The API responds 
 - [x] Create the candidates controller with index, show, and create actions.
 - [x] Make the index action return a JSON representation of all the candidates.
 - [x] Make the show action return the first candidate.
-- [ ] Make the create action create a new candidate (in the database). It can have any properties for now.
-- [ ] Make sure that you can run rails server and access the candidates index page in your browser.
-- [ ] Delete README.rdoc and make your own (filled in) README.md
-- [ ] Push to GitHub
-- [ ] Create an estimate for the number of hours you expect to need to complete this assignment tomorrow night
-- [ ] If you anticipate getting to hard or nightmare modes, read those modes before beginning work tonight and take
-- [ ] those requirements into account in your models and migrations.
+- [x] Make the create action create a new candidate (in the database). It can have any properties for now.
+- [x] Make sure that you can run rails server and access the candidates index page in your browser.
+- [x] Delete README.rdoc and make your own (filled in) README.md
+- [x] Push to GitHub
+- [x] Create an estimate for the number of hours you expect to need to complete this assignment tomorrow night
+
+##### Estimate For Day Two Completion Time
+I predict it will take 3.5 hours to complete the remainder of the assignment on Day Two.
