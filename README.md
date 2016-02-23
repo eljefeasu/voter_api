@@ -6,6 +6,7 @@ This is a Rails-based application which only serves up an API. The API responds 
 #### Day One Tasks To Complete
 
 - [x] Review the requirements and create an ERD
+    - [Link to ERD](https://www.lucidchart.com/invitations/accept/c1b61a37-4139-4172-8ce0-4f24cd19dfe8) 
 - [x] Create a new Rails app
 - [x] Create migrations and models as needed
 - [x] Add associations and validations
