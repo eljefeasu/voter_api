@@ -14,7 +14,7 @@ This is a Rails-based application which only serves up an API. The API responds 
 - [x] Make sure that you can run rake successfully to run the tests
 - [x] Create the candidates controller with index, show, and create actions.
 - [x] Make the index action return a JSON representation of all the candidates.
-- [ ] Make the show action return the first candidate.
+- [x] Make the show action return the first candidate.
 - [ ] Make the create action create a new candidate (in the database). It can have any properties for now.
 - [ ] Make sure that you can run rails server and access the candidates index page in your browser.
 - [ ] Delete README.rdoc and make your own (filled in) README.md

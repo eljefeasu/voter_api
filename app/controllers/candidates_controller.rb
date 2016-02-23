@@ -4,6 +4,7 @@ class CandidatesController < ApplicationController
   end
 
   def show
+    render json: Candidate.first
   end
 
   def create
