@@ -18,5 +18,14 @@ class VotersController < ApplicationController
   end
 
   def update
+    v = Voter.where("token = ?", params["token"])
+    v = v.first
+    if v == nil
+      render json: "That token is incorrect. Cannot update information."
+    else
+      v.name = params["name"] if params["name"]
+      v.party = params["party"] if params["party"]
+      render json: v
+    end
   end
 end

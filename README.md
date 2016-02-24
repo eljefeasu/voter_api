@@ -29,7 +29,7 @@ I predict it will take 3.5 hours to complete the remainder of the assignment on 
 - [x] Create the voters controller with create, show, and update actions.
 - [x] Make the create action create a new voter (in the database).
 - [x] Make the show action show the voter with token authentication.
-- [ ] Make the update action update the voter with token authentication.
+- [x] Make the update action update the voter with token authentication.
 - [x] Create the votes controller with create, destroy, and index actions.
 - [ ] Make the votes controller only allow one vote per voter.
 - [ ] Make the create action create a new vote (in the database), using voter token authentication.
