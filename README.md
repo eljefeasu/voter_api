@@ -33,6 +33,6 @@ I predict it will take 3.5 hours to complete the remainder of the assignment on 
 - [x] Create the votes controller with create, destroy, and index actions.
 - [x] Only allow one vote per voter.
 - [x] Make the create action create a new vote (in the database), using voter token authentication.
-- [ ] Make the destroy action destroy a vote (in the database), using voter token authentication.
+- [x] Make the destroy action destroy a vote (in the database), using voter token authentication.
 - [ ] Make the index action return a JSON representation of all the candidates and number of votes for each.
 - [ ] Make tests for the controllers

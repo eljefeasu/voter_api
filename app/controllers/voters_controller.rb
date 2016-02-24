@@ -7,8 +7,7 @@ class VotersController < ApplicationController
   end
 
   def show
-    v = Voter.where("token = ?", params["token"])
-    v = v.first
+    v = Voter.find_by_token(params["token"])
     if v == nil
       render json: "That token is incorrect. Cannot display information."
     else
@@ -18,8 +17,7 @@ class VotersController < ApplicationController
   end
 
   def update
-    v = Voter.where("token = ?", params["token"])
-    v = v.first
+    v = Voter.find_by_token(params["token"])
     if v == nil
       render json: "That token is incorrect. Cannot update information."
     else

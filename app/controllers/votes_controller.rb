@@ -1,7 +1,6 @@
 class VotesController < ApplicationController
   def create
-    voter = Voter.where("token = ?", params["token"])
-    voter = voter.first
+    voter = Voter.find_by_token(params["token"])
     if voter == nil
       render json: "That token does not exist. Cannot vote."
     else
@@ -17,6 +16,18 @@ class VotesController < ApplicationController
   end
 
   def destroy
+    voter = Voter.find_by_token(params["token"])
+    if voter == nil
+      render json: "That token does not exist. Cannot destroy record."
+    else
+      vote = Vote.find_by_voter_id(voter.id)
+      if vote == nil
+        render json: "Cannot find a vote by this user."
+      else
+        vote.destroy
+        render json: "Vote has been destroyed."
+      end
+    end
   end
 
   def index
