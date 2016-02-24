@@ -25,6 +25,7 @@ class VotersController < ApplicationController
     else
       v.name = params["name"] if params["name"]
       v.party = params["party"] if params["party"]
+      v.save!
       render json: v
     end
   end
