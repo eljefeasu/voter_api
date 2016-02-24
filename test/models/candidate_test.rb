@@ -12,5 +12,5 @@ class CandidateTest < ActiveSupport::TestCase
     assert_equal c, Candidate.find(c.id)
     assert_raises do c = Candidate.create!(name: "Jefferson Neel") end
   end
-  
+
 end

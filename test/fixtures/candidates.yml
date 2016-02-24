@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
-  name: MyString
-  hometown: MyString
-  district: MyString
-  party: MyString
+clinton:
+  name: Bill Clinton
+  hometown: Arkansas
+  district: United States
+  party: Democrat
 
-two:
-  name: MyString
-  hometown: MyString
-  district: MyString
-  party: MyString
+bush:
+  name: George W. Bush
+  hometown: Texas
+  district: United States
+  party: Republican

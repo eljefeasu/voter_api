@@ -2,7 +2,7 @@ require 'test_helper'
 
 class VotersControllerTest < ActionController::TestCase
   test "should get create" do
-    get :create
+    get :create, name: "Jeb Bush", party: "Republican"
     assert_response :success
   end
 

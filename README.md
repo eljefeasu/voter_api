@@ -35,4 +35,11 @@ I predict it will take 3.5 hours to complete the remainder of the assignment on 
 - [x] Make the create action create a new vote (in the database), using voter token authentication.
 - [x] Make the destroy action destroy a vote (in the database), using voter token authentication.
 - [x] Make the index action return a JSON representation of all the candidates and number of votes for each.
-- [ ] Make tests for the controllers
+- [x] Update/make candidates controller tests
+- [x] Update/make voters controller tests
+- [x] Update/make votes controller tests
+- [x] Reflect on estimate for how long to finish Day Two Tasks
+
+##### Reflection on estimate
+It took me probably closer to 4.5 hours than 3.5 hours. The reason for the delay is I was trying to understand
+the controller tests better and spent a longer amount of time on them than I thought I would.

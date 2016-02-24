@@ -4,6 +4,7 @@ class CandidatesControllerTest < ActionController::TestCase
   test "should get index" do
     get :index
     assert_response :success
+    assert response.body.include?("Bill Clinton")
   end
 
   test "should get show" do

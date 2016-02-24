@@ -1,11 +1,9 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  party: MyString
-  token: MyString
+  name: Monty Python
+  party: likes to
 
 two:
-  name: MyString
-  party: MyString
-  token: MyString
+  name: Jack Bauer
+  party: yes please
