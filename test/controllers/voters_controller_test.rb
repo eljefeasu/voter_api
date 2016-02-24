@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class VotersControllerTest < ActionController::TestCase
-  test "should get index" do
-    get :index
+  test "should get create" do
+    get :create
     assert_response :success
   end
 
@@ -11,8 +11,8 @@ class VotersControllerTest < ActionController::TestCase
     assert_response :success
   end
 
-  test "should get create" do
-    get :create
+  test "should get update" do
+    get :update
     assert_response :success
   end
 
